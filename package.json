@@ -1,0 +1,31 @@
+{
+  "name": "curso-de-node",
+  "version": "1.0.0",
+  "description": "Curso de midudev por parte andelson gonzalez",
+  "keywords": [
+    "devandelson",
+    "devandelsonNode",
+    "Node",
+    "curso",
+    "de",
+    "node"
+  ],
+  "homepage": "https://github.com/Devandelson/Curso-de-node#readme",
+  "bugs": {
+    "url": "https://github.com/Devandelson/Curso-de-node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devandelson/Curso-de-node.git"
+  },
+  "license": "ISC",
+  "author": "Andelson Gonzalez Genao",
+  "type": "commonjs",
+  "main": "ls-avanzado.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "picocolors": "1.1.1"
+  }
+}

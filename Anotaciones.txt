@@ -1,0 +1,32 @@
+■ primero que es node: es un entorno de ejecucion de js para correr en el back end 
+no es un lenguaje de programacion. 
+
+■ segundo globalThis: es una variable global para todos. Pero obviamente cada globalthis tiene 
+sus diferencias segun el lenguaje.
+En js navegador tenemos window, pero en node no, se utiliza para que no haiga confunsion
+Globalthis.
+
+■ tercero: todo lo que es global en node se utiliza globalThis, como un atributo o propiedad.
+
+■ window.Math OMG todo viene de una variable global.
+
+■ En node si se quiere dividir el codigo y no siempre en un solo archivo por que es lo normal
+que se hace separar el codigo. Lo que se hace es un patron de diseno que consiste en importar
+y exportar los archivos para que sean reutilizables. y el patron se llama Common JS forma clasica.
+
+Ejemplo de CommonJs (CJS):
+
+Archivo1:
+function sum(a,b) {console.log(a + b)};
+module.exports = {
+    sum // lo mandamos como un objecto para obligar a usar ese mismo nombre en el segundo archivo
+};
+
+Archivo2:
+const { sum } = require('./sum');
+sum(1 , 2);
+
+Pero tambien existe otro mas facil que es MJS, cambiando la extencion de js se puede utilizar 
+este para modular tambien.
+
+Utiliza el export y el import de js normalmente sin require.

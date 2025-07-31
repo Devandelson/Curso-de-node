@@ -1,0 +1,31 @@
+El path (o ruta) es la dirección que le dice al sistema operativo dónde se encuentra un archivo o carpeta dentro del sistema de archivos.
+
+📌 Tipos de path:
+Ruta absoluta (absolute path)
+
+Es la dirección completa desde la raíz del sistema.
+
+Siempre empieza por la raíz (/ en Linux/macOS o una letra de unidad como C:\ en Windows).
+
+Ejemplos:
+
+Windows: C:\Usuarios\Anderson\Documentos\archivo.txt
+
+Linux/macOS: /home/anderson/documentos/archivo.txt
+
+Ruta relativa (relative path)
+
+Es la dirección parcial, desde la carpeta actual (directorio actual).
+
+No comienza con / ni con C:\.
+
+Ejemplos:
+
+documentos/archivo.txt
+
+../imagenes/foto.png (el .. sube un nivel en el directorio)
+
+🧠 ¿Para qué sirve el path?
+Para abrir, mover, copiar o ejecutar archivos desde código o desde la terminal.
+
+Los comandos, scripts, programas y navegadores lo usan para encontrar archivos.
